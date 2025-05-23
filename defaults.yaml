@@ -1,0 +1,9 @@
+---
+platform: "ios"
+connection_options:
+  scrapli:
+    extras:
+      port: 22
+      auth_strict_key: False
+      ssh_config_file: True
+      timeout_transport: 20
