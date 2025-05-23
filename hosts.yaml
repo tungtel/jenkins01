@@ -1,0 +1,15 @@
+---
+ce1:
+  username: "tdang"
+  password: "cisco"
+  platform: "ios"
+  hostname: "192.168.31.121"
+  groups:
+    - cisco_group
+ce2:
+  username: "tdang"
+  password: "cisco"
+  platform: "ios"
+  hostname: "192.168.31.122"
+  groups:
+    - cisco_group
