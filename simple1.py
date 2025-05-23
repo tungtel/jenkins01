@@ -26,3 +26,4 @@ print_result(results)
 failures = nr.data.failed_hosts
 if failures:
     raise NornirExecutionError("Nornir Failure Detected")
+print('end the script ')
