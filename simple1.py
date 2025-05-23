@@ -8,7 +8,7 @@ from nornir_jinja2.plugins.tasks import template_file
 from nornir.core.exceptions import NornirExecutionError
 
 
-nr = InitNornir(config_file = 'config_file')
+nr = InitNornir(config_file = 'config.yaml')
 
 def pull_vars(task):
     result = task.run(task=load_yaml, file="group_vars/all.yaml")
